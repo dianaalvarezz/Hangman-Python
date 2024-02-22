@@ -14,7 +14,7 @@ be interested in exploring basic project development and coding practices.
 
 ## How to Play
 
-To play the game,
+To play the game, 
 
 ## Installation
 
