@@ -4,7 +4,7 @@ This script allows the user to play a simple version of Hangman
 Author: Diana Alvarez
 Date: 2024-02-201
 """
-inport random
+import random
 from collections import Counter
 
 # String that will serve as word bank for game
@@ -35,5 +35,22 @@ if __name__ == '__main__':
             print()
             chances -=1
 
-            try: guess  =
+            try: 
+                guess  = str(input('Guess a letter: '))
+            except:
+                print('Enter only a letter')
+                continue
+
+            if not guess.isalpha():
+                print('Enter only a letter')
+                continue
+            else if len(guess) & gt 
+            1:
+                print('Enter a single letter')
+                continue
+        else if guess in letterGuessed:
+                print('You have already guessed that letter')
+                continue
+        
+
 
